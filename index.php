@@ -25,6 +25,23 @@ function sayHello($name) {
 			echo "$p </br>";
 			echo $s;
 			//ok
+			//bai2
+			$n = 100;
+				$arr1 = array($n);
+				$arr2 = array(1,2,3,4);
+				$arr3 = array();
+				$arr4 = array("hoten" => "Nam Khanhs",
+							"quequan" => "Ha Nội",
+							"tuoi" => 22			
+				);
+				print_r($n);
+				print_r($arr1);
+				print_r($arr2);
+				print_r($arr3);
+				print_r($arr4);
+				//
+
+				//bai3
 			for($i=1;$i<=200;$i++){
 				if($i%2==0)
 					echo "<b><font color=red>".$i."</font></b>";
